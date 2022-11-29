@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px 5px rgb(60, 10, 186);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+/* nav-left */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left h1 {
+  font-size: 60px;
+}
+.nav-left img {
+  width: 90px;
+  height: 90px;
+}
+/* nav-right */
+.nav-right a {
+  text-decoration: none;
+  padding: 50px;
+  font-size: 30px;
+  color: crimson;
+}
+.nav-right a:hover {
+  text-transform: uppercase;
+
+  color: rgb(79, 42, 165);
+}
+.nav-left h1 {
+  color: violet;
+}
+/* content  */
+.content {
+  background-image: url(images/background.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 70vh;
+}
+.content div {
+  width: 50%;
+  margin: 5px auto;
+  padding-top: 100px;
+}
+.content p,
+h1 {
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  font-size: 100px;
+}
+/* content-para */
+.content-para {
+  width: 40%;
+  margin: 30px auto;
+}
+.content-para p {
+  color: rgb(74, 74, 63);
+  text-align: center;
+}
+/* content-2 */
+.content-2 {
+  display: flex;
+  width: 60%;
+  margin: 10px auto;
+}
+.content-2 img {
+  padding: 10px;
+}
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(170, 209, 209);
+  margin-top: 90px;
+}
+/* main */
+.main {
+  width: 62%;
+  margin: 20px auto;
+  margin-top: 90px;
+}
+.main-1 h2 {
+  text-align: left;
+  padding: 10px;
+}
+.main-1 p {
+  text-align: left;
+  padding: 10px;
+}
+.main-2 h2 {
+  text-align: left;
+  padding: 10px;
+}
+.main-2 p {
+  text-align: left;
+  padding: 10px;
+}
+/* footer  */
+.footer {
+  border-top-left-radius: 80px;
+  background-color: cadetblue;
+}
+.footer1 {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer1 img {
+  width: 30px;
+  height: 30px;
+}
+.box2 {
+  display: flex;
+  gap: 20px;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+button {
+  color: aliceblue;
+  background-color: black;
+}
